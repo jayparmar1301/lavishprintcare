@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lavish PrintCare</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'main.css' %}" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <div data-aos="zoom-out-left">
+        <h1>lavish</h1>
+      </div>
+      <h1>LAVISH<span>PRINT</span>CARE</h1>
+      <h2>COMING SOON</h2>
+      <div class="countdown">00 : 00 : 00 : 00</div>
+    </div>
+  </header>
+  <script src="{% static 'main.js' %}"></script>
+</body>
+</html>
