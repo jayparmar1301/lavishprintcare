@@ -86,6 +86,7 @@ six==1.16.0
 urllib3==1.26.8
 #wcwidth==0.2.5
 #Werkzeug==2.0.3
+whitenoise
 #wrapt==1.13.3
 #yarg==0.1.9
 #zipp==3.7.0
