@@ -14,6 +14,7 @@ colorama==0.4.4
 cycler==0.11.0
 decorator==5.1.1
 Django==4.0.4
+dj-static
 docopt==0.6.2
 executing==0.8.2
 flatbuffers==2.0
@@ -66,6 +67,7 @@ rsa==4.8
 #scikit-learn==1.0.2
 #scipy==1.7.3
 six==1.16.0
+static3
 #sklearn==0.0
 #sqlparse==0.4.2
 #stack-data==0.1.4
